@@ -11,8 +11,8 @@
  * `getSessionMessages`). Reach for these schemas when you need the body.
  */
 import { z } from 'zod';
-import { expectType } from './lib/zod-utils';
-import type { ContentBlock } from './anthropic-api/content-blocks';
+import { expectType } from '../lib/zod-utils';
+import type { ContentBlock } from '../anthropic-api/content-blocks';
 import { SessionUuidSchema } from './projects';
 import { BridgeSessionIdSchema } from './bridge';
 

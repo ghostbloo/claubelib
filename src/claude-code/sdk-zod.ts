@@ -8,7 +8,7 @@ import type {
 } from '@anthropic-ai/claude-agent-sdk';
 import { resolveSettings } from '@anthropic-ai/claude-agent-sdk';
 import z from 'zod';
-import { expectType } from './lib/zod-utils';
+import { expectType } from '../lib/zod-utils';
 import { SessionUuidSchema } from './projects';
 
 export const SDKSessionInfoSchema = z

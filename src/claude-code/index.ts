@@ -4,4 +4,4 @@ export * from './sdk-zod';
 export * from './supervisor';
 export * from './transcript-compaction';
 export * from './transcript';
-export * from './anthropic-api/content-blocks';
+export * from '../anthropic-api/content-blocks';
